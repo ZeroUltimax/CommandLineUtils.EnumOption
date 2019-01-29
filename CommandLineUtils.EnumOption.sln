@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineUtils.EnumOption", "CommandLineApplication.EnumOption\CommandLineUtils.EnumOption.csproj", "{7676A943-8B70-4811-BF17-F79471830022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineUtils.EnumOption", "CommandLineUtils.EnumOption\CommandLineUtils.EnumOption.csproj", "{7676A943-8B70-4811-BF17-F79471830022}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE6F9D98-4AB5-4AF6-A646-2A2BA57DEE58}"
 	ProjectSection(SolutionItems) = preProject
