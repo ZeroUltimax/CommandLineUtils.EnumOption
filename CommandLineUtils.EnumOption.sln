@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE.txt = LICENSE.txt
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineUtils.EnumOption.Test", "CommandLineUtils.EnumOption.Test\CommandLineUtils.EnumOption.Test.csproj", "{1F1948A1-3CFC-44D7-BE16-6B807E3E3F92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{7676A943-8B70-4811-BF17-F79471830022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7676A943-8B70-4811-BF17-F79471830022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7676A943-8B70-4811-BF17-F79471830022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1948A1-3CFC-44D7-BE16-6B807E3E3F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1948A1-3CFC-44D7-BE16-6B807E3E3F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1948A1-3CFC-44D7-BE16-6B807E3E3F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1948A1-3CFC-44D7-BE16-6B807E3E3F92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
