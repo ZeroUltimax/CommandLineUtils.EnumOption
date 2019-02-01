@@ -157,6 +157,21 @@ namespace Microsoft.Extensions.CommandLineUtils
         }
 
         /// <summary>
+        /// Configure the option to use all possible values, with the default <c>ToString</c> as the textual representation.
+        /// </summary>
+        /// <exception cref="ArgumentException">If a value's<c>.ToString()</c> is already used by another option value.</exception>
+        public EnumOptionConfigBuilder<T> UseAll()
+        {
+
+            foreach(T v in Enum.GetValues(typeof(T)))
+            {
+                Use(v);
+            }
+
+            return this;
+        }
+
+        /// <summary>
         /// Configure the option to use <paramref name="enumValue"/>, with <paramref name="value"/> as the textual representation.
         /// </summary>
         /// <param name="value">The textual representation of the option value.</param>

@@ -110,6 +110,21 @@ namespace Microsoft.Extensions.CommandLineUtils.Test
         }
 
         /// <summary>
+        /// Use configures with a specified string to match.
+        /// </summary>
+        [TestMethod]
+        public void Use_all_uses_all_enum_values()
+        {
+            var cfg = new EnumOptionConfigBuilder<TestEnum>(template, desc)
+                .UseAll()
+                .Build()
+                ;
+
+            Assert.AreEqual(TestEnum.abc, cfg.OptionValueMap["abc"]);
+            Assert.AreEqual(TestEnum.def, cfg.OptionValueMap["def"]);
+        }
+
+        /// <summary>
         /// Ignore case by default.
         /// </summary>
         [TestMethod]
